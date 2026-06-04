@@ -1,0 +1,204 @@
+{
+  "collection": {
+    "id": "85ad9c5c-e329-4338-9fe2-ad5f6b3c6d68",
+    "name": "my-car",
+    "parent_id": null,
+    "file_path": null,
+    "sync_mode": "local",
+    "sort_order": 0,
+    "workspace_id": "local",
+    "created_at": "2026-06-04T04:43:56.757461400",
+    "updated_at": "2026-06-04T04:43:56.757461400"
+  },
+  "requests": [
+    {
+      "request": {
+        "id": "e6b9c6e2-f468-4e5c-913e-eae8565e0bb0",
+        "collection_id": "85ad9c5c-e329-4338-9fe2-ad5f6b3c6d68",
+        "name": "DELETERequest",
+        "method": "DELETE",
+        "url": "http://localhost:3000/api/cars/6a1e6756099add65cd719100",
+        "protocol": "http",
+        "sort_order": 0,
+        "created_at": "2026-06-04T04:51:26.434535200",
+        "updated_at": "2026-06-04T04:51:26.434535200"
+      },
+      "details": {
+        "request_id": "e6b9c6e2-f468-4e5c-913e-eae8565e0bb0",
+        "headers": "[{\"key\":\"\",\"value\":\"\",\"enabled\":true}]",
+        "query_params": "[{\"key\":\"\",\"value\":\"\",\"enabled\":true}]",
+        "body_type": "json",
+        "body_content": "",
+        "auth_type": null,
+        "auth_data": "{\"type\":\"none\"}",
+        "pre_request_script": null,
+        "post_response_script": null,
+        "last_response": "{\"status\":200,\"status_text\":\"OK\",\"headers\":[{\"key\":\"vary\",\"value\":\"rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch\",\"enabled\":true},{\"key\":\"content-type\",\"value\":\"application/json\",\"enabled\":true},{\"key\":\"date\",\"value\":\"Thu, 04 Jun 2026 04:51:13 GMT\",\"enabled\":true},{\"key\":\"connection\",\"value\":\"keep-alive\",\"enabled\":true},{\"key\":\"keep-alive\",\"value\":\"timeout=5\",\"enabled\":true},{\"key\":\"transfer-encoding\",\"value\":\"chunked\",\"enabled\":true}],\"body\":\"{\\\"success\\\":true,\\\"data\\\":{\\\"_id\\\":\\\"6a1e6756099add65cd719100\\\",\\\"model\\\":\\\"BMW X5\\\",\\\"year\\\":2024,\\\"horsepower\\\":335,\\\"price\\\":75000,\\\"image\\\":\\\"https://example.com/car.jpg\\\",\\\"favorite\\\":true,\\\"category\\\":\\\"SUV\\\",\\\"createdAt\\\":\\\"2026-06-02T05:17:10.804Z\\\",\\\"updatedAt\\\":\\\"2026-06-04T04:50:37.087Z\\\",\\\"__v\\\":0}}\",\"size\":275,\"duration_ms\":27,\"timing\":{\"total_ms\":27,\"ttfb_ms\":27},\"cookies\":[]}",
+        "protocol_config": null,
+        "verify_ssl": null
+      }
+    },
+    {
+      "request": {
+        "id": "888c5c63-3630-4c1d-ac84-509f35b7b236",
+        "collection_id": "85ad9c5c-e329-4338-9fe2-ad5f6b3c6d68",
+        "name": "PUTRequest",
+        "method": "PUT",
+        "url": "http://localhost:3000/api/cars/6a1e6756099add65cd719100",
+        "protocol": "http",
+        "sort_order": 0,
+        "created_at": "2026-06-04T04:50:50.175946800",
+        "updated_at": "2026-06-04T04:50:50.175946800"
+      },
+      "details": {
+        "request_id": "888c5c63-3630-4c1d-ac84-509f35b7b236",
+        "headers": "[{\"key\":\"\",\"value\":\"\",\"enabled\":true}]",
+        "query_params": "[{\"key\":\"\",\"value\":\"\",\"enabled\":true}]",
+        "body_type": "json",
+        "body_content": "{\r\n  \"model\": \"BMW X5\",\r\n  \"year\": 2024,\r\n  \"horsepower\": 335,\r\n  \"price\": 75000,\r\n  \"image\": \"https://example.com/car.jpg\",\r\n  \"category\": \"SUV\"\r\n}",
+        "auth_type": null,
+        "auth_data": "{\"type\":\"none\"}",
+        "pre_request_script": null,
+        "post_response_script": null,
+        "last_response": "{\"status\":200,\"status_text\":\"OK\",\"headers\":[{\"key\":\"vary\",\"value\":\"rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch\",\"enabled\":true},{\"key\":\"content-type\",\"value\":\"application/json\",\"enabled\":true},{\"key\":\"date\",\"value\":\"Thu, 04 Jun 2026 04:50:37 GMT\",\"enabled\":true},{\"key\":\"connection\",\"value\":\"keep-alive\",\"enabled\":true},{\"key\":\"keep-alive\",\"value\":\"timeout=5\",\"enabled\":true},{\"key\":\"transfer-encoding\",\"value\":\"chunked\",\"enabled\":true}],\"body\":\"{\\\"success\\\":true,\\\"data\\\":{\\\"_id\\\":\\\"6a1e6756099add65cd719100\\\",\\\"model\\\":\\\"BMW X5\\\",\\\"year\\\":2024,\\\"horsepower\\\":335,\\\"price\\\":75000,\\\"image\\\":\\\"https://example.com/car.jpg\\\",\\\"favorite\\\":true,\\\"category\\\":\\\"SUV\\\",\\\"createdAt\\\":\\\"2026-06-02T05:17:10.804Z\\\",\\\"updatedAt\\\":\\\"2026-06-04T04:50:37.087Z\\\",\\\"__v\\\":0}}\",\"size\":275,\"duration_ms\":25,\"timing\":{\"total_ms\":25,\"ttfb_ms\":25},\"cookies\":[]}",
+        "protocol_config": null,
+        "verify_ssl": null
+      }
+    },
+    {
+      "request": {
+        "id": "7ae0ebf3-4c90-4bc6-9a95-7a2803ea7f64",
+        "collection_id": "85ad9c5c-e329-4338-9fe2-ad5f6b3c6d68",
+        "name": "PatchRequest",
+        "method": "PATCH",
+        "url": "http://localhost:3000/api/cars/6a1e6756099add65cd719100",
+        "protocol": "http",
+        "sort_order": 0,
+        "created_at": "2026-06-04T04:47:47.463643400",
+        "updated_at": "2026-06-04T04:47:47.463643400"
+      },
+      "details": {
+        "request_id": "7ae0ebf3-4c90-4bc6-9a95-7a2803ea7f64",
+        "headers": "[{\"key\":\"\",\"value\":\"\",\"enabled\":true}]",
+        "query_params": "[{\"key\":\"\",\"value\":\"\",\"enabled\":true}]",
+        "body_type": "json",
+        "body_content": "{\r\n  \"year\":2020\r\n}",
+        "auth_type": null,
+        "auth_data": "{\"type\":\"none\"}",
+        "pre_request_script": null,
+        "post_response_script": null,
+        "last_response": "{\"status\":200,\"status_text\":\"OK\",\"headers\":[{\"key\":\"vary\",\"value\":\"rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch\",\"enabled\":true},{\"key\":\"content-type\",\"value\":\"application/json\",\"enabled\":true},{\"key\":\"date\",\"value\":\"Thu, 04 Jun 2026 04:47:35 GMT\",\"enabled\":true},{\"key\":\"connection\",\"value\":\"keep-alive\",\"enabled\":true},{\"key\":\"keep-alive\",\"value\":\"timeout=5\",\"enabled\":true},{\"key\":\"transfer-encoding\",\"value\":\"chunked\",\"enabled\":true}],\"body\":\"{\\\"success\\\":true,\\\"data\\\":{\\\"_id\\\":\\\"6a1e6756099add65cd719100\\\",\\\"model\\\":\\\"BMW M4 Competition\\\",\\\"year\\\":2020,\\\"horsepower\\\":503,\\\"price\\\":98000,\\\"image\\\":\\\"https://images.unsplash.com/photo-1555215695-3004980ad54e\\\",\\\"favorite\\\":true,\\\"category\\\":\\\"Coupe\\\",\\\"createdAt\\\":\\\"2026-06-02T05:17:10.804Z\\\",\\\"updatedAt\\\":\\\"2026-06-04T04:47:35.020Z\\\",\\\"__v\\\":0}}\",\"size\":319,\"duration_ms\":37,\"timing\":{\"total_ms\":37,\"ttfb_ms\":37},\"cookies\":[]}",
+        "protocol_config": null,
+        "verify_ssl": null
+      }
+    },
+    {
+      "request": {
+        "id": "9b88cdda-d476-48f7-b31c-80d95bcecc41",
+        "collection_id": "85ad9c5c-e329-4338-9fe2-ad5f6b3c6d68",
+        "name": "addCar",
+        "method": "POST",
+        "url": "  http://localhost:3000/api/cars",
+        "protocol": "http",
+        "sort_order": 0,
+        "created_at": "2026-06-04T04:44:12.300949",
+        "updated_at": "2026-06-04T04:44:12.300949"
+      },
+      "details": {
+        "request_id": "9b88cdda-d476-48f7-b31c-80d95bcecc41",
+        "headers": "[{\"key\":\"\",\"value\":\"\",\"enabled\":true}]",
+        "query_params": "[{\"key\":\"\",\"value\":\"\",\"enabled\":true}]",
+        "body_type": "json",
+        "body_content": "{\r\n  \"model\":\"Alto\",\r\n  \"year\":2002,\r\n  \"horsepower\":500,\r\n  \"price\":2000000,\r\n  \"image\":\"http://alto.jpg\",\r\n  \"category\":\"Coupe\"\r\n}",
+        "auth_type": null,
+        "auth_data": "{\"type\":\"none\"}",
+        "pre_request_script": null,
+        "post_response_script": null,
+        "last_response": null,
+        "protocol_config": null,
+        "verify_ssl": null
+      }
+    },
+    {
+      "request": {
+        "id": "19c77d42-c885-4970-a019-9cfc5baf97ef",
+        "collection_id": "85ad9c5c-e329-4338-9fe2-ad5f6b3c6d68",
+        "name": "getAllCar",
+        "method": "GET",
+        "url": "http://localhost:3000/api/cars",
+        "protocol": "http",
+        "sort_order": 0,
+        "created_at": "2026-06-04T04:45:01.792385200",
+        "updated_at": "2026-06-04T04:45:01.792385200"
+      },
+      "details": {
+        "request_id": "19c77d42-c885-4970-a019-9cfc5baf97ef",
+        "headers": "[{\"key\":\"\",\"value\":\"\",\"enabled\":true}]",
+        "query_params": "[{\"key\":\"\",\"value\":\"\",\"enabled\":true}]",
+        "body_type": null,
+        "body_content": null,
+        "auth_type": null,
+        "auth_data": "{\"type\":\"none\"}",
+        "pre_request_script": null,
+        "post_response_script": null,
+        "last_response": "{\"status\":200,\"status_text\":\"OK\",\"headers\":[{\"key\":\"vary\",\"value\":\"rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch\",\"enabled\":true},{\"key\":\"content-type\",\"value\":\"application/json\",\"enabled\":true},{\"key\":\"date\",\"value\":\"Thu, 04 Jun 2026 04:44:48 GMT\",\"enabled\":true},{\"key\":\"connection\",\"value\":\"keep-alive\",\"enabled\":true},{\"key\":\"keep-alive\",\"value\":\"timeout=5\",\"enabled\":true},{\"key\":\"transfer-encoding\",\"value\":\"chunked\",\"enabled\":true}],\"body\":\"{\\\"success\\\":true,\\\"count\\\":2,\\\"data\\\":[{\\\"_id\\\":\\\"6a1e6756099add65cd719100\\\",\\\"model\\\":\\\"BMW M4 Competition\\\",\\\"year\\\":2024,\\\"horsepower\\\":503,\\\"price\\\":98000,\\\"image\\\":\\\"https://images.unsplash.com/photo-1555215695-3004980ad54e\\\",\\\"favorite\\\":true,\\\"category\\\":\\\"Coupe\\\",\\\"createdAt\\\":\\\"2026-06-02T05:17:10.804Z\\\",\\\"updatedAt\\\":\\\"2026-06-03T05:01:19.419Z\\\",\\\"__v\\\":0},{\\\"_id\\\":\\\"6a2102657a1d1062c29f1480\\\",\\\"model\\\":\\\"Alto\\\",\\\"year\\\":2002,\\\"horsepower\\\":500,\\\"price\\\":2000000,\\\"image\\\":\\\"http://alto.jpg\\\",\\\"favorite\\\":false,\\\"category\\\":\\\"Coupe\\\",\\\"createdAt\\\":\\\"2026-06-04T04:43:17.810Z\\\",\\\"updatedAt\\\":\\\"2026-06-04T04:43:17.810Z\\\",\\\"__v\\\":0}]}\",\"size\":574,\"duration_ms\":13,\"timing\":{\"total_ms\":13,\"ttfb_ms\":13},\"cookies\":[]}",
+        "protocol_config": null,
+        "verify_ssl": null
+      }
+    },
+    {
+      "request": {
+        "id": "10a141c6-657b-46ae-ab18-213a59876556",
+        "collection_id": "85ad9c5c-e329-4338-9fe2-ad5f6b3c6d68",
+        "name": "getById",
+        "method": "GET",
+        "url": "http://localhost:3000/api/cars/6a1e6756099add65cd719100",
+        "protocol": "http",
+        "sort_order": 0,
+        "created_at": "2026-06-04T04:45:29.956442400",
+        "updated_at": "2026-06-04T04:45:29.956442400"
+      },
+      "details": {
+        "request_id": "10a141c6-657b-46ae-ab18-213a59876556",
+        "headers": "[{\"key\":\"\",\"value\":\"\",\"enabled\":true}]",
+        "query_params": "[{\"key\":\"\",\"value\":\"\",\"enabled\":true}]",
+        "body_type": null,
+        "body_content": null,
+        "auth_type": null,
+        "auth_data": "{\"type\":\"none\"}",
+        "pre_request_script": null,
+        "post_response_script": null,
+        "last_response": "{\"status\":200,\"status_text\":\"OK\",\"headers\":[{\"key\":\"vary\",\"value\":\"rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch\",\"enabled\":true},{\"key\":\"content-type\",\"value\":\"application/json\",\"enabled\":true},{\"key\":\"date\",\"value\":\"Thu, 04 Jun 2026 04:45:20 GMT\",\"enabled\":true},{\"key\":\"connection\",\"value\":\"keep-alive\",\"enabled\":true},{\"key\":\"keep-alive\",\"value\":\"timeout=5\",\"enabled\":true},{\"key\":\"transfer-encoding\",\"value\":\"chunked\",\"enabled\":true}],\"body\":\"{\\\"success\\\":true,\\\"data\\\":{\\\"_id\\\":\\\"6a1e6756099add65cd719100\\\",\\\"model\\\":\\\"BMW M4 Competition\\\",\\\"year\\\":2024,\\\"horsepower\\\":503,\\\"price\\\":98000,\\\"image\\\":\\\"https://images.unsplash.com/photo-1555215695-3004980ad54e\\\",\\\"favorite\\\":true,\\\"category\\\":\\\"Coupe\\\",\\\"createdAt\\\":\\\"2026-06-02T05:17:10.804Z\\\",\\\"updatedAt\\\":\\\"2026-06-03T05:01:19.419Z\\\",\\\"__v\\\":0}}\",\"size\":319,\"duration_ms\":128,\"timing\":{\"total_ms\":128,\"ttfb_ms\":127},\"cookies\":[]}",
+        "protocol_config": null,
+        "verify_ssl": null
+      }
+    },
+    {
+      "request": {
+        "id": "ea024e67-ec31-4a71-89a9-4ac3993b894e",
+        "collection_id": "85ad9c5c-e329-4338-9fe2-ad5f6b3c6d68",
+        "name": "getByName",
+        "method": "GET",
+        "url": "http://localhost:3000/api/cars/search/BMW M4 Competition",
+        "protocol": "http",
+        "sort_order": 0,
+        "created_at": "2026-06-04T04:46:06.414030700",
+        "updated_at": "2026-06-04T04:46:06.414030700"
+      },
+      "details": {
+        "request_id": "ea024e67-ec31-4a71-89a9-4ac3993b894e",
+        "headers": "[{\"key\":\"\",\"value\":\"\",\"enabled\":true}]",
+        "query_params": "[{\"key\":\"\",\"value\":\"\",\"enabled\":true}]",
+        "body_type": null,
+        "body_content": null,
+        "auth_type": null,
+        "auth_data": "{\"type\":\"none\"}",
+        "pre_request_script": null,
+        "post_response_script": null,
+        "last_response": "{\"status\":200,\"status_text\":\"OK\",\"headers\":[{\"key\":\"vary\",\"value\":\"rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch\",\"enabled\":true},{\"key\":\"content-type\",\"value\":\"application/json\",\"enabled\":true},{\"key\":\"date\",\"value\":\"Thu, 04 Jun 2026 04:45:54 GMT\",\"enabled\":true},{\"key\":\"connection\",\"value\":\"keep-alive\",\"enabled\":true},{\"key\":\"keep-alive\",\"value\":\"timeout=5\",\"enabled\":true},{\"key\":\"transfer-encoding\",\"value\":\"chunked\",\"enabled\":true}],\"body\":\"{\\\"success\\\":true,\\\"count\\\":1,\\\"data\\\":[{\\\"_id\\\":\\\"6a1e6756099add65cd719100\\\",\\\"model\\\":\\\"BMW M4 Competition\\\",\\\"year\\\":2024,\\\"horsepower\\\":503,\\\"price\\\":98000,\\\"image\\\":\\\"https://images.unsplash.com/photo-1555215695-3004980ad54e\\\",\\\"favorite\\\":true,\\\"category\\\":\\\"Coupe\\\",\\\"createdAt\\\":\\\"2026-06-02T05:17:10.804Z\\\",\\\"updatedAt\\\":\\\"2026-06-03T05:01:19.419Z\\\",\\\"__v\\\":0}]}\",\"size\":331,\"duration_ms\":26,\"timing\":{\"total_ms\":26,\"ttfb_ms\":26},\"cookies\":[]}",
+        "protocol_config": null,
+        "verify_ssl": null
+      }
+    }
+  ]
+}
