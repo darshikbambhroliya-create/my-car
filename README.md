@@ -80,7 +80,7 @@ bun install
 Make sure MongoDB is installed and running locally.
 
 Open MongoDB Compass and connect using:
-
+if you are using monogoDB compass
 ```txt
 mongodb://127.0.0.1:27017
 ```
